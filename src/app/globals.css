@@ -19,6 +19,7 @@ body {
   --font-family-ovo: Ovo, serif !important;
   --shadow-dark: 4px 4px 0 #000;
   --shadow-light: 4px 4px 0 #fff;
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr))
   /* --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono); */
 }

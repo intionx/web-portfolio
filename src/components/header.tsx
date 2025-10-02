@@ -10,7 +10,7 @@ export default function Header() {
           <Image
             src={assets.profile_img}
             alt=""
-            className="rounded-full w-32"
+            className="rounded-full w-50 sm:mt-20"
           />
         </div>
         <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-family-ovo">

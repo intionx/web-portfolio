@@ -54,11 +54,11 @@ export default function Navbar() {
               About Me
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="font-family-ovo" href="#services">
               Services
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="font-family-ovo" href="#projects">
               My Projects
@@ -108,11 +108,11 @@ export default function Navbar() {
               About Me
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="font-family-ovo" onClick={closeMenu} href="#services">
               Services
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="font-family-ovo" onClick={closeMenu} href="#projects">
               My Projects
