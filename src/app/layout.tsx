@@ -1,13 +1,18 @@
+
+
 import type { Metadata } from "next";
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import Providers from "./providers";
 
 const OutfitFont = Outfit({
-  subsets: ["latin"], weight: ["400", "500", "600", "700"]
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const OvoFont = Ovo({
-  subsets: ["latin"], weight: ["400"]
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -20,12 +25,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" className="scroll-smooth">
       <body
         className={`${OutfitFont.className} ${OvoFont.className} antialiased leading-8 overflow-x-hidden`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

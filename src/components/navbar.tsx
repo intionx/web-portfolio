@@ -1,8 +1,10 @@
 "use client";
 
+import ThemeSwitcher from "@/app/themeswitcher";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
   const sideMenuRef = useRef<HTMLUListElement>(null);
@@ -25,9 +27,15 @@ export default function Navbar() {
     });
   }, []);
 
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
   return (
     <>
-      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
         <Image src={assets.header_bg_color} alt="" className="w-full" />
       </div>
       <nav
@@ -71,9 +79,10 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
+          {/* <button>
             <Image src={assets.moon_icon} alt="switch mode" className="w-7" />
-          </button>
+          </button> */}
+          {/* <ThemeSwitcher /> */}
           <a
             href="#contact"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-family-ovo"
