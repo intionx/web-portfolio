@@ -35,7 +35,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
         <Image src={assets.header_bg_color} alt="" className="w-full" />
       </div>
       <nav
@@ -44,11 +44,14 @@ export default function Navbar() {
         }`}
       >
         <a href="#top">
-          <Image
+          {/* <Image
             src={assets.logo}
             alt="logo"
             className="w-28 cursor-pointer mr-14"
-          />
+          /> */}
+          <p className="font-family-outfit text-3xl">
+            Kenneth Sulaiman
+          </p>
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${!isScroll ? "bg-white/30 shadow-sm" : ""}`}>

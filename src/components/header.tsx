@@ -1,11 +1,11 @@
   import { assets } from "@/assets/assets";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
   import Image from "next/image";
   import React from "react";
 
   export default function Header() {
 
-    const {theme} = useTheme();
+    // const {theme} = useTheme();
     return (
       <>
         <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
@@ -24,12 +24,7 @@ import { useTheme } from "next-themes";
             Fullstack Web Developer based in Jakarta
           </h1>
           <p className="max-w-2xl mx-auto font-family-ovo">
-            I am a third-year Computer Science student at BINUS University with
-            hands-on experience as a Web Developer at Bina Nusantara IT Division.
-            Skilled in fullstack development using frameworks and languages such
-            as Next.js (React, TypeScript) for frontend and Laravel for backend.
-            Experienced in building interactive web applications and strong in
-            adaptability, teamwork, and time management.
+            Computer Science Student & Web Developer building interactive and user-centered web applications.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a

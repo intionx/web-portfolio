@@ -14,20 +14,18 @@ export default function About() {
         <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
           <div className="w-64 sm:w-90 rounded-3xl max-w-none">
             <Image
-              src={assets.user_image}
+              src={assets.about_me}
               alt=""
               className="w-full rounded-3xl"
             />
           </div>
           <div className="flex-1">
             <p className="mb-10 max-w-3xl font-family-ovo">
-              I am a third-year Computer Science student at BINUS University
-              with hands-on experience as a Web Developer at Bina Nusantara IT
-              Division. Skilled in fullstack development using frameworks and
-              languages such as Next.js (React, TypeScript) for frontend and
-              Laravel for backend. Experienced in building interactive web
-              applications and strong in adaptability, teamwork, and time
-              management.
+              I’m a third-year Computer Science student at BINUS University, currently working and gaining hands-on experience as a Web Developer at Bina Nusantara IT Division. I enjoy working across both the frontend and backend, and occasionally exploring UI/UX design to make sure every product I help build feels intuitive and well-crafted.
+              {/* <br />
+              What motivates me most is seeing something I’ve built come together and creating websites that not only work smoothly, but also feel satisfying to use. I take a calm and steady approach to my work, paying attention to detail and always looking for ways to improve my skills. */}
+              <br />
+              I value collaboration and enjoy working with others to bring ideas to life. As I grow as a developer, I’m aiming to deepen my experience in fullstack development and continue building applications that are both functional and meaningful for their users.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl font-family-outfit">
               {infoList.map(({ icon, iconDark, title, description }, index) => (
