@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Web Portfolio
 
-## Getting Started
+**Web Portfolio** is a minimalist personal website showcasing my projects, skills, and experiences as a **Fullstack Web Developer based in Jakarta**.  
+Built as both a creative outlet and a professional tool, it serves as my main platform for internship applications and self-development in web technologies.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Project Purpose
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I built this portfolio to:
+- Present my work, skills, and background in a clean and interactive way.  
+- Gain hands-on experience building a fully responsive website using modern frameworks.  
+- Continuously refine my design and development abilities through iteration.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is my first major version, though I’ve made a few updates along the way — and I plan to keep evolving it as I learn more.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Features
 
-To learn more about Next.js, take a look at the following resources:
+- 🏠 **Single-Page Design** — Smooth scroll layout featuring header, about, projects, and contact sections.  
+- 👨‍💻 **About Me & Tech Stack** — Quick overview of who I am and what tools I work with.  
+- 💼 **Project Showcase** — Highlighted selection of my recent and favorite work.  
+- 📄 **Resume Download** — Downloadable resume directly from the header.  
+- 📬 **Contact Form** — Integrated with [Web3Forms](https://web3forms.com) for simple and secure submissions.  
+- ⚙️ **Smooth Animations** — Subtle transitions and motion effects powered by **Framer Motion**.  
+- 🌓 **Dark Mode (In Progress)** — Coming soon as part of an upcoming update!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+### Frontend
+- **Next.js** (React Framework)  
+- **Tailwind CSS** for styling  
+- **Framer Motion** for animations  
+- **Web3Forms** for contact form functionality  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deployment
+- Hosted on **Vercel** → [kennethsulaiman.site](https://kennethsulaiman.site)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎨 Design
+
+The website follows a **modern, clean, and minimal** aesthetic — prioritizing readability, spacing, and subtle motion.  
+Although based on a YouTube tutorial for structure and layout, all styling and content were customized to reflect my personal branding and portfolio goals.
+
+---
+
+## 🚀 Future Improvements
+
+This project is ongoing. Future plans include:
+- Implementing **dark mode** support.  
+- Adding **more interactive and fun features** as I experiment with new web technologies.  
+- Expanding the **project showcase** with newer works and case studies.  
+
+---
+
+## 📬 Contact
+
+Want to reach out?  
+You can message me directly via the contact form on the site:  
+👉 [kennethsulaiman.site](https://kennethsulaiman.site)
+
+Or connect with me on professional platforms linked in the site’s footer.
+
+---
