@@ -176,6 +176,28 @@ export const workData = [
     figma:
       "https://www.figma.com/proto/CfAUwzLqeFKBztMHJM0W3I/NUTRI-FIT?node-id=8-14&p=f&t=99ZqTNt5TYFLwsgf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A14&show-proto-sidebar=1",
   },
+  {
+    title: "FinanceTracker",
+    description: "Fullstack Project",
+    bgImage: "/finance/finance1u.png",
+    fullDesc:
+      "FinanceTracker is a personal finance web application built with ASP.NET Core MVC (.NET 8) that helps users monitor and visualize their spending habits. The app allows users to record expenses by entering details such as description, amount, category, and date. These records are then displayed in an interactive table view and visualized through a Chart.js pie chart, providing an intuitive breakdown of where their money goes. The project focuses on applying MVC architecture, Entity Framework Core for database interaction, and Razor Pages with Bootstrap for a clean and responsive interface.",
+    images: [
+      "/finance/finance1u.png",
+      "/finance/finance2.png",
+    ],
+    techStack: [
+      "C#",
+      "ASP.NET Core (.NET 8)",
+      "Razor Views",
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "Miscrosoft SQL Server",
+    ],
+    github: "https://github.com/intionx/FinanceTracker",
+    figma: "",
+  },
 ];
 
 export const serviceData = [
